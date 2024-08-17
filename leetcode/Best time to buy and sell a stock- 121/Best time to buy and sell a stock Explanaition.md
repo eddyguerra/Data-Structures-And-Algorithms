@@ -50,9 +50,7 @@ class Solution(object):
         while r < len(prices):
             # If current selling price is higher than buying price
             if prices[l] < prices[r]:
-                # Calculate the profit
                 profit = prices[r] - prices[l]
-                # Update the maximum profit if the current profit is higher
                 maxProfit = max(profit, maxProfit)
             else:
                 # Move the left pointer to the current day if it's better to buy
