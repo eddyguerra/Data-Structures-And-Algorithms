@@ -59,7 +59,6 @@ class Solution(object):
             r += 1
         
         return maxProfit
-```
 
 ### Explanation:
 - **Two-pointer Approach**: The algorithm uses two pointers to track the potential buying and selling days.
